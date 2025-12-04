@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="443.0" prefWidth="593.0" style="-fx-background-image: #CFE1B9;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="math130.mathtestclass.Scene1Controller">
+   <children>
+      <ImageView fitHeight="475.0" fitWidth="349.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imageS2k/IMG_6462.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="37.0" layoutY="22.0" prefHeight="139.0" prefWidth="287.0" text="Quiz on my S2000 !">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="startButton" layoutX="37.0" layoutY="161.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="48.0" prefWidth="248.0" text="Start Quiz !">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="480.0" fitWidth="328.0" layoutX="328.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imageS2k/IMG_6462.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
