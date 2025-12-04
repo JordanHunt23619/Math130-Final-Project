@@ -47,9 +47,12 @@ public class HelloController {
 
     @FXML
     public void initialize() {
+        prompt.setWrapText(true);
         button1.setUserData(0);
         button2.setUserData(1);
         button3.setUserData(2);
+
+        loadQuestion();
 
     }
 
