@@ -85,7 +85,7 @@ public class HelloController {
     }
 
     private void showResults() {
-        prompt.setText("Congratulations, you finished \n you scored : " + score);
+        prompt.setText("Nice! you got " + score + " right!");
         button1.setText("vroom");
         button1.setDisable(true);
         button2.setText("vroom");
