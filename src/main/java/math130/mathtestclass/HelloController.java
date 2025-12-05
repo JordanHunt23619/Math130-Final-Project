@@ -14,7 +14,7 @@ import java.sql.SQLOutput;
 
 public class HelloController {
     private String[] questions = {
-            "How high does an AP1 honda s2000 rev up to?",
+            "How high does an AP1 Honda s2000 rev up to?",
             "How many gears does the Honda s2000 have?",
             "What motor does the Honda s2000 come with?",
             "What year is my Honda S2000?",
@@ -22,11 +22,11 @@ public class HelloController {
 
     };
     private String[][] answers = {
-            {"7.5krpm", "8.2krpm", "9.1krpm"},
+            {"7.5krpm", "8.2krpm", "9krpm"},
             {"5 gears", "6 gears", "7 gears"},
             {"k24a2", "k20z1", "f20c1"},
             {"2001", "2006", "2002"},
-            {"240 whp", "346whp", "505whp"}
+            {"240whp", "346whp", "505whp"}
     };
     private int[] correctAnswers = {2, 1, 2, 2, 2};
 
