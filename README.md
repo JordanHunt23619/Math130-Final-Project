@@ -21,5 +21,21 @@ This one is for the Class HelloController(Essentially the controller for Scene 2
 This one is for the Class Scene1Controller:
 ![IMG_9139.jpeg](src/IMG_9139.jpeg)
 
-Relationships/ notes/ Requirements:
+Relationships/ notes:
+- 
 
+# Requirements:
+Concrete Classes:
+- Both HelloController and Scene1Controller are concrete classes. These are complete classes and can be used by JavaFX. They control how the quiz and the app’s screens work.
+
+
+Abstract Classes or Interfaces:
+- The project does not use any abstract classes or interfaces because it is small quiz app and everything is fully handled and mutated within the controllers. The quiz and screens are simple, so there is no need for extra general or abstract parts.
+
+Inheritance/Polymorphism:
+- Inheritance is partially used in my project as the controls such as Button and Label come from the node class
+which gives them shared features. Events also use polymorphism or have polymorphic behavior, since
+onButtonClick(Event event) can work with any kind of Event. My project uses the built-in javaFX behavior without creating or making new Parent classes and having "custom" inheritance.
+
+Exception Handling: 
+- Exception handling is included in the project using throws IOException in onHelloButtonClick and Scene1Controller.onButtonClick. This handles the possible errors when loading FXML files.
