@@ -22,7 +22,12 @@ This one is for the Class Scene1Controller:
 ![IMG_9139.jpeg](src/IMG_9139.jpeg)
 
 Relationships/ notes:
-- 
+- HelloController uses Button and Label objects (button 1,2,3 & label for prompt)
+It controls the text and reads user clicks
+- HelloController uses the Event object in the methods (onButtonClick and onHelloButtonClick)
+to detect what the user clicks.
+- HelloController uses Stage, Scene, and FXML loader to load a new file and to move to another screen when user clicks button
+- Button and Label indirectly inherit from Node, which allow them to use shared methods as settext() and setDisable().
 
 # Requirements:
 Concrete Classes:
