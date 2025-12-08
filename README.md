@@ -39,3 +39,6 @@ onButtonClick(Event event) can work with any kind of Event. My project uses the 
 
 Exception Handling: 
 - Exception handling is included in the project using throws IOException in onHelloButtonClick and Scene1Controller.onButtonClick. This handles the possible errors when loading FXML files.
+
+# Video on S2000 Quiz:
+![IMG_9144.gif](src/IMG_9144.gif)
