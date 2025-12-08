@@ -28,6 +28,9 @@ It controls the text and reads user clicks
 to detect what the user clicks.
 - HelloController uses Stage, Scene, and FXML loader to load a new file and to move to another screen when user clicks button
 - Button and Label indirectly inherit from Node, which allow them to use shared methods as settext() and setDisable().
+- Scene1Controller uses Button, it uses the loaded button from the FXML file to start the quiz.
+- Scene1Controller uses Event, it calls event.getSource() to find the window or stage to update
+- Scene1Controller uses FXMLLoader and Scene to load a new screen.
 
 # Requirements:
 Concrete Classes:
